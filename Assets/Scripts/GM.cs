@@ -1,10 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class GM : MonoBehaviour
 {
 
+    public int onscreen;
+    public string dif;
+    public Text difficulty_text;
+    public Text sharkonscreen;
+      
     public Transform currspawn;
     public GameObject shark;
     int spawntimer;
@@ -46,7 +52,7 @@ public class GM : MonoBehaviour
 
         difficultycheck();
         WaveManager();
-
+        UpdateUI();
 
     }
 
@@ -113,31 +119,35 @@ public class GM : MonoBehaviour
         if (difficulty <= 1000)
         {
             easy = true;
-
+            dif = "easy";
         }
 
         if (difficulty >= 1000)
         {
             easy = false;
             medium = true;
+            dif = "medium";
         }
 
         if (difficulty >= 2500)
         {
             medium = false;
             hard = true;
+            dif = "hard";
         }
 
         if (difficulty >= 5000)
         {
             hard= false;
             supahhard = true;
+            dif = "very hard";
         }
 
         if (difficulty >= 8000)
         {
             supahhard = false;
             OHLAWDHECOMIN = true;
+            dif = "OH LAWD HE COMIN'";
         }
     }
     void spawnpick()
@@ -208,5 +218,9 @@ public class GM : MonoBehaviour
         {
             currspawn = sppn13;
         }
+    }
+    void UpdateUI()
+    {
+        difficulty_text.text = "Difficulty: " + dif;
     }
 }

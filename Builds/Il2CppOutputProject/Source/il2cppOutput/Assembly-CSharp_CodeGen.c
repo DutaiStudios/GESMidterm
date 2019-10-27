@@ -1,0 +1,159 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Void camMouseLook::Start()
+extern void camMouseLook_Start_mFE6F7360678FBD800EAB9C1BFEF79857125A8923 ();
+// 0x00000002 System.Void camMouseLook::Update()
+extern void camMouseLook_Update_mDD8F0F1A16152879BE7A1C81E80BA7B18354FD59 ();
+// 0x00000003 System.Void camMouseLook::.ctor()
+extern void camMouseLook__ctor_mDC09C3CF1A3E48155E0D630E8C327584A4EF38E8 ();
+// 0x00000004 System.Void CharacterController::Start()
+extern void CharacterController_Start_m0645EDF74E0B4D904B1C1EA002A34B4812B8C7FC ();
+// 0x00000005 System.Void CharacterController::Update()
+extern void CharacterController_Update_m0B4138A15A924D7AF12C5FC6865E0E9BB777561E ();
+// 0x00000006 System.Void CharacterController::OnCollisionEnter(UnityEngine.Collision)
+extern void CharacterController_OnCollisionEnter_mFD7C458D0BE3E9D3A2758F4E7FB04B27B99C63C9 ();
+// 0x00000007 System.Void CharacterController::.ctor()
+extern void CharacterController__ctor_mA5C22E969F3A8EA9CAE0CE3A44FA79601A1E86E2 ();
+// 0x00000008 System.Void GM::Start()
+extern void GM_Start_m0ABA464F3FD3AB1E1E690AC95367B6E718E5C119 ();
+// 0x00000009 System.Void GM::Update()
+extern void GM_Update_mBE4D9C9246044DAFEFE74B89D660F299A8D2BD1B ();
+// 0x0000000A System.Void GM::WaveManager()
+extern void GM_WaveManager_m21A28E13569AE0F5EB98E57815CCD422656A51DA ();
+// 0x0000000B System.Void GM::difficultycheck()
+extern void GM_difficultycheck_mE180CC529DF22CDB6863060467944BA62D1A5489 ();
+// 0x0000000C System.Void GM::spawnpick()
+extern void GM_spawnpick_mF00AECCF854EF9A29A97EDB846C868A8B7D8B369 ();
+// 0x0000000D System.Void GM::.ctor()
+extern void GM__ctor_mEB4E935029679AB27C71A685F51A7BCEA565052A ();
+// 0x0000000E System.Void Raft::Start()
+extern void Raft_Start_mEDC42FD256E8C12E6AB321E274DE2ED241B54474 ();
+// 0x0000000F System.Void Raft::Update()
+extern void Raft_Update_m08E8B96D969551C9C865EFF289A9E17102A94D54 ();
+// 0x00000010 System.Void Raft::OnCollisionEnter(UnityEngine.Collision)
+extern void Raft_OnCollisionEnter_m6AE9CB47FD2A69F9415999A90AAEB45951C7EC1D ();
+// 0x00000011 System.Void Raft::.ctor()
+extern void Raft__ctor_mC65F8C32BFA134A4BA6AFE59D5F4A25E7211B8B9 ();
+// 0x00000012 System.Void Shark::Start()
+extern void Shark_Start_m7EAB7DFC6CFCFCBEEDC93F3FA61992DDB385B270 ();
+// 0x00000013 System.Void Shark::Update()
+extern void Shark_Update_mB5C1ACF3B04FB6B32E3A91F164ED43468C5115A7 ();
+// 0x00000014 System.Void Shark::.ctor()
+extern void Shark__ctor_m35BD7D0641CD80751B09F3BE61AF1A145290EB89 ();
+// 0x00000015 System.Void SpearThrow::Start()
+extern void SpearThrow_Start_mA61457AC070E30E6EA2CACE156DB4219719E7210 ();
+// 0x00000016 System.Void SpearThrow::Update()
+extern void SpearThrow_Update_mFA3807B38F6FB48D71203ECCCFA6C49A26144CBE ();
+// 0x00000017 System.Void SpearThrow::ThrowSpear()
+extern void SpearThrow_ThrowSpear_mC986A53E78554BA46D40FE57E52B3D8A1FF0A48A ();
+// 0x00000018 System.Void SpearThrow::.ctor()
+extern void SpearThrow__ctor_mE1B1521811164CF6C04C94AE78D7A2AD7E8D4992 ();
+// 0x00000019 System.Void Target::TakeDamage(System.Single)
+extern void Target_TakeDamage_m51304FB4248CB7257764767F7764FA02C687D6E5 ();
+// 0x0000001A System.Void Target::Die()
+extern void Target_Die_mD1FF15E33984EE00A6DDB33BF7942F1FFB05DEEB ();
+// 0x0000001B System.Void Target::Start()
+extern void Target_Start_m2A79874B6AAC79FC2BB02607F27BCC5A704F53AA ();
+// 0x0000001C System.Void Target::Update()
+extern void Target_Update_m0274902AFD47D04F2C21ACE3572641CD80AEB9CE ();
+// 0x0000001D System.Void Target::.ctor()
+extern void Target__ctor_mED3D9359C547A1958742D796A2B591ECE7E92EB5 ();
+static Il2CppMethodPointer s_methodPointers[29] = 
+{
+	camMouseLook_Start_mFE6F7360678FBD800EAB9C1BFEF79857125A8923,
+	camMouseLook_Update_mDD8F0F1A16152879BE7A1C81E80BA7B18354FD59,
+	camMouseLook__ctor_mDC09C3CF1A3E48155E0D630E8C327584A4EF38E8,
+	CharacterController_Start_m0645EDF74E0B4D904B1C1EA002A34B4812B8C7FC,
+	CharacterController_Update_m0B4138A15A924D7AF12C5FC6865E0E9BB777561E,
+	CharacterController_OnCollisionEnter_mFD7C458D0BE3E9D3A2758F4E7FB04B27B99C63C9,
+	CharacterController__ctor_mA5C22E969F3A8EA9CAE0CE3A44FA79601A1E86E2,
+	GM_Start_m0ABA464F3FD3AB1E1E690AC95367B6E718E5C119,
+	GM_Update_mBE4D9C9246044DAFEFE74B89D660F299A8D2BD1B,
+	GM_WaveManager_m21A28E13569AE0F5EB98E57815CCD422656A51DA,
+	GM_difficultycheck_mE180CC529DF22CDB6863060467944BA62D1A5489,
+	GM_spawnpick_mF00AECCF854EF9A29A97EDB846C868A8B7D8B369,
+	GM__ctor_mEB4E935029679AB27C71A685F51A7BCEA565052A,
+	Raft_Start_mEDC42FD256E8C12E6AB321E274DE2ED241B54474,
+	Raft_Update_m08E8B96D969551C9C865EFF289A9E17102A94D54,
+	Raft_OnCollisionEnter_m6AE9CB47FD2A69F9415999A90AAEB45951C7EC1D,
+	Raft__ctor_mC65F8C32BFA134A4BA6AFE59D5F4A25E7211B8B9,
+	Shark_Start_m7EAB7DFC6CFCFCBEEDC93F3FA61992DDB385B270,
+	Shark_Update_mB5C1ACF3B04FB6B32E3A91F164ED43468C5115A7,
+	Shark__ctor_m35BD7D0641CD80751B09F3BE61AF1A145290EB89,
+	SpearThrow_Start_mA61457AC070E30E6EA2CACE156DB4219719E7210,
+	SpearThrow_Update_mFA3807B38F6FB48D71203ECCCFA6C49A26144CBE,
+	SpearThrow_ThrowSpear_mC986A53E78554BA46D40FE57E52B3D8A1FF0A48A,
+	SpearThrow__ctor_mE1B1521811164CF6C04C94AE78D7A2AD7E8D4992,
+	Target_TakeDamage_m51304FB4248CB7257764767F7764FA02C687D6E5,
+	Target_Die_mD1FF15E33984EE00A6DDB33BF7942F1FFB05DEEB,
+	Target_Start_m2A79874B6AAC79FC2BB02607F27BCC5A704F53AA,
+	Target_Update_m0274902AFD47D04F2C21ACE3572641CD80AEB9CE,
+	Target__ctor_mED3D9359C547A1958742D796A2B591ECE7E92EB5,
+};
+static const int32_t s_InvokerIndices[29] = 
+{
+	13,
+	13,
+	13,
+	13,
+	13,
+	4,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	4,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	281,
+	13,
+	13,
+	13,
+	13,
+};
+extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	29,
+	s_methodPointers,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};

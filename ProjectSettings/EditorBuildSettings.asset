@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/GES.unity
+    guid: 3be21115d89b6bc4f8ef20b2bd7170ea
   m_configObjects: {}

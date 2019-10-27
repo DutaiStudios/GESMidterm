@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class CharacterController : MonoBehaviour
@@ -9,6 +8,7 @@ public class CharacterController : MonoBehaviour
     public float speed = 10.0f;
     Rigidbody rb;
     public bool isGrounded = true;
+
 
     public float tempjumptimer = 0;
     //TEMPJUMPTIMER is a placeholder
