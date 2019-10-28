@@ -124,8 +124,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 0.3
-  rb: {fileID: 0}
+  rb: {fileID: 9207883179727965130}
   target: {fileID: 2951135960195166312, guid: 0a60fd581bd24474c936ae31a2ec25ad, type: 3}
+  sinkspeed: 0.2
+  sharkcollider: {fileID: 9207883179727965104}
   random: 0
 --- !u!114 &9207883179727965132
 MonoBehaviour:

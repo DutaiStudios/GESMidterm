@@ -39,16 +39,16 @@ public class SpearThrow : MonoBehaviour
             Debug.Log(hit.transform.name);
 
             Target target = hit.transform.GetComponent<Target>();
-            if (target != null)
-            {
-                target.TakeDamage(damage);
-            }
-            if (target.tag == "shark")
-            {
-            GameObject bloodymess = Instantiate(bloodsplatter, hit.point, Quaternion.LookRotation(hit.normal));
-                Destroy(bloodymess, 1f);
-                k_count++;
-            }
+                if (target != null)
+                {
+                    target.TakeDamage(damage);
+                }
+                if (target.tag == "shark")
+                {
+                    GameObject bloodymess = Instantiate(bloodsplatter, hit.point, Quaternion.LookRotation(hit.normal));
+                    Destroy(bloodymess, 1f);
+                    k_count++;
+                }
 
         }
 
@@ -58,5 +58,6 @@ public class SpearThrow : MonoBehaviour
     {
         KillCount.text = "Sharks repelled: " + k_count;
     }
+
 }
 
