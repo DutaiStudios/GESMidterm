@@ -849,13 +849,18 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\camMouseLook.cs" />
     <Compile Include="Assets\Scripts\CharacterController.cs" />
+    <Compile Include="Assets\Scripts\CreditsSharks.cs" />
     <Compile Include="Assets\Scripts\GM.cs" />
+    <Compile Include="Assets\Scripts\megashark.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\Scripts\MM.cs" />
     <Compile Include="Assets\Scripts\Raft.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\Shark.cs" />
+    <Compile Include="Assets\Scripts\Slide.cs" />
     <Compile Include="Assets\Scripts\SpearThrow.cs" />
     <Compile Include="Assets\Scripts\Target.cs" />
+    <Compile Include="Assets\Scripts\WaterUpDown.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

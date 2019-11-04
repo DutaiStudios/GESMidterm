@@ -58,7 +58,7 @@ public class CharacterController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "bottom")
+        if (collision.gameObject.name == "Bottom")
         {
             Application.Quit();
         }

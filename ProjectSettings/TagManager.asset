@@ -7,6 +7,7 @@ TagManager:
   - raft
   - spear
   - shark
+  - megashark
   layers:
   - Default
   - TransparentFX

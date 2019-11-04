@@ -12577,6 +12577,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Environment_get_NewLine_m5D4F4667FA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AssertionMessageUtil_GetMessage_mA6DC7467BAF09543EA091FC63587C9011E1CA261 (String_t* ___failureMessage0, const RuntimeMethod* method);
 // System.String UnityEngine.Assertions.AssertionMessageUtil::GetMessage(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AssertionMessageUtil_GetMessage_m97506B9B19E9F75E8FE164BF64085466FC96EA18 (String_t* ___failureMessage0, String_t* ___expected1, const RuntimeMethod* method);
+// System.Void UnityEngine.YieldInstruction::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YieldInstruction__ctor_mA72AD367FB081E0C2493649C6E8F7CFC592AB620 (YieldInstruction_t836035AC7BD07A3C7909F7AD2A5B42DE99D91C44 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.AsyncOperation::InternalDestroy(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncOperation_InternalDestroy_m22D4FE202FC59024E9ED7F6537C87D26F96FC551 (intptr_t ___ptr0, const RuntimeMethod* method);
 // System.Void System.Action`1<UnityEngine.AsyncOperation>::Invoke(!0)
@@ -12765,8 +12767,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Component_t05064EF382ABCAF4B8C94F8A350EA85184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Component_GetComponentsForListInternal_m469B4C3A883942213BEA0EAAA54629219A042480 (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, Type_t * ___searchType0, RuntimeObject * ___resultList1, const RuntimeMethod* method);
 // System.String UnityEngine.GameObject::get_tag()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameObject_get_tag_mA9DC75D3D591B5E7D1ADAD14EA66CC4186580275 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.YieldInstruction::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YieldInstruction__ctor_mA72AD367FB081E0C2493649C6E8F7CFC592AB620 (YieldInstruction_t836035AC7BD07A3C7909F7AD2A5B42DE99D91C44 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Coroutine::ReleaseCoroutine(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Coroutine_ReleaseCoroutine_mD33DD220788EEA099B98DD1258D6332A46D3D571 (intptr_t ___ptr0, const RuntimeMethod* method);
 // UnityEngine.Experimental.Rendering.GraphicsFormat UnityEngine.SystemInfo::GetGraphicsFormat(UnityEngine.Experimental.Rendering.DefaultFormat)
@@ -13096,6 +13096,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Gradient_Equals_m7F23C7692189DDD94FC3175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Gradient_Internal_Equals_m210D28E9843DBA28E2F60FDBB366FE2B5B739B1A (Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A * __this, intptr_t ___other0, const RuntimeMethod* method);
 // System.Void UnityEngine.Input::GetTouch_Injected(System.Int32,UnityEngine.Touch&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_GetTouch_Injected_m9183BBE1F72252D2DC1E6CDCFC14F05DDC1832A4 (int32_t ___index0, Touch_t806752C775BA713A91B6588A07CA98417CABC003 * ___ret1, const RuntimeMethod* method);
+// System.Boolean UnityEngine.Input::GetKeyString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyString_m8D335E6165C0DD7D0E5E3371392F9807D183232A (String_t* ___name0, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDownInt_m87B29738C0DD59D90CF4661004F090CB697BDC0C (int32_t ___key0, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Input::GetKeyDownString(System.String)
@@ -15555,6 +15557,14 @@ IL2CPP_EXTERN_C void AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D_ma
 // Conversion method for clean up from marshalling of: UnityEngine.AsyncOperation
 IL2CPP_EXTERN_C void AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D_marshal_com_cleanup(AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D_marshaled_com& marshaled)
 {
+}
+// System.Void UnityEngine.AsyncOperation::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncOperation__ctor_mEEE6114B72B8807F4AA6FF48FA79E4EFE480293F (AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D * __this, const RuntimeMethod* method)
+{
+	{
+		YieldInstruction__ctor_mA72AD367FB081E0C2493649C6E8F7CFC592AB620(__this, /*hidden argument*/NULL);
+		return;
+	}
 }
 // System.Void UnityEngine.AsyncOperation::InternalDestroy(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncOperation_InternalDestroy_m22D4FE202FC59024E9ED7F6537C87D26F96FC551 (intptr_t ___ptr0, const RuntimeMethod* method)
@@ -24789,6 +24799,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameObject_get_tag_mA9DC75D3D591B5E
 	String_t* retVal = _il2cpp_icall_func(__this);
 	return retVal;
 }
+// UnityEngine.GameObject UnityEngine.GameObject::FindGameObjectWithTag(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * GameObject_FindGameObjectWithTag_m9F2877F52346B973DE3023209D73852E96ECC10D (String_t* ___tag0, const RuntimeMethod* method)
+{
+	typedef GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * (*GameObject_FindGameObjectWithTag_m9F2877F52346B973DE3023209D73852E96ECC10D_ftn) (String_t*);
+	static GameObject_FindGameObjectWithTag_m9F2877F52346B973DE3023209D73852E96ECC10D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GameObject_FindGameObjectWithTag_m9F2877F52346B973DE3023209D73852E96ECC10D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::FindGameObjectWithTag(System.String)");
+	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * retVal = _il2cpp_icall_func(___tag0);
+	return retVal;
+}
 // System.Void UnityEngine.GameObject::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SendMessage_mB9147E503F1F55C4F3BC2816C0BDA8C21EA22E95 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, String_t* ___methodName0, RuntimeObject * ___value1, int32_t ___options2, const RuntimeMethod* method)
 {
@@ -25107,6 +25127,16 @@ IL_0018:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Boolean UnityEngine.Input::GetKeyString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyString_m8D335E6165C0DD7D0E5E3371392F9807D183232A (String_t* ___name0, const RuntimeMethod* method)
+{
+	typedef bool (*Input_GetKeyString_m8D335E6165C0DD7D0E5E3371392F9807D183232A_ftn) (String_t*);
+	static Input_GetKeyString_m8D335E6165C0DD7D0E5E3371392F9807D183232A_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Input_GetKeyString_m8D335E6165C0DD7D0E5E3371392F9807D183232A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyString(System.String)");
+	bool retVal = _il2cpp_icall_func(___name0);
+	return retVal;
+}
 // System.Boolean UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDownInt_m87B29738C0DD59D90CF4661004F090CB697BDC0C (int32_t ___key0, const RuntimeMethod* method)
 {
@@ -25197,6 +25227,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Touch_t806752C775BA713A91B6588A07CA98417CABC0
 		Input_GetTouch_Injected_m9183BBE1F72252D2DC1E6CDCFC14F05DDC1832A4(L_0, (Touch_t806752C775BA713A91B6588A07CA98417CABC003 *)(&V_0), /*hidden argument*/NULL);
 		Touch_t806752C775BA713A91B6588A07CA98417CABC003  L_1 = V_0;
 		return L_1;
+	}
+}
+// System.Boolean UnityEngine.Input::GetKey(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKey_m9B7FD21BDC79FA7268AD0524BCA3E882E5FBEAFB (String_t* ___name0, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	{
+		String_t* L_0 = ___name0;
+		bool L_1 = Input_GetKeyString_m8D335E6165C0DD7D0E5E3371392F9807D183232A(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		bool L_2 = V_0;
+		return L_2;
 	}
 }
 // System.Boolean UnityEngine.Input::GetKeyDown(UnityEngine.KeyCode)

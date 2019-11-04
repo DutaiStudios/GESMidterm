@@ -34,51 +34,115 @@ extern void CharacterController_Update_m0B4138A15A924D7AF12C5FC6865E0E9BB777561E
 extern void CharacterController_OnCollisionEnter_mFD7C458D0BE3E9D3A2758F4E7FB04B27B99C63C9 ();
 // 0x00000007 System.Void CharacterController::.ctor()
 extern void CharacterController__ctor_mA5C22E969F3A8EA9CAE0CE3A44FA79601A1E86E2 ();
-// 0x00000008 System.Void GM::Start()
+// 0x00000008 System.Void CreditsSharks::Start()
+extern void CreditsSharks_Start_m16E9FE641DF3B0B4D8EB8A065B87FF85ECA3D365 ();
+// 0x00000009 System.Void CreditsSharks::Update()
+extern void CreditsSharks_Update_m05414EFB05A8E6F09AD9AEAEDE62CF64EBD377EE ();
+// 0x0000000A System.Void CreditsSharks::.ctor()
+extern void CreditsSharks__ctor_m45DA0AF2F86D5B24B619454FC705D7911F726CEF ();
+// 0x0000000B System.Void GM::Start()
 extern void GM_Start_m0ABA464F3FD3AB1E1E690AC95367B6E718E5C119 ();
-// 0x00000009 System.Void GM::Update()
+// 0x0000000C System.Void GM::Update()
 extern void GM_Update_mBE4D9C9246044DAFEFE74B89D660F299A8D2BD1B ();
-// 0x0000000A System.Void GM::WaveManager()
+// 0x0000000D System.Void GM::WaveManager()
 extern void GM_WaveManager_m21A28E13569AE0F5EB98E57815CCD422656A51DA ();
-// 0x0000000B System.Void GM::difficultycheck()
+// 0x0000000E System.Void GM::difficultycheck()
 extern void GM_difficultycheck_mE180CC529DF22CDB6863060467944BA62D1A5489 ();
-// 0x0000000C System.Void GM::spawnpick()
+// 0x0000000F System.Void GM::spawnpick()
 extern void GM_spawnpick_mF00AECCF854EF9A29A97EDB846C868A8B7D8B369 ();
-// 0x0000000D System.Void GM::.ctor()
+// 0x00000010 System.Void GM::UpdateUI()
+extern void GM_UpdateUI_m32EE8E33462F646CF6107311FEBF2F494ED5E686 ();
+// 0x00000011 System.Void GM::.ctor()
 extern void GM__ctor_mEB4E935029679AB27C71A685F51A7BCEA565052A ();
-// 0x0000000E System.Void Raft::Start()
+// 0x00000012 System.Void megashark::Start()
+extern void megashark_Start_mE5967DE8F44B6065C92F09AE228995A48BED12DA ();
+// 0x00000013 System.Void megashark::Update()
+extern void megashark_Update_m03AA403638157007B9B065883EAD1FB795B426E1 ();
+// 0x00000014 System.Void megashark::.ctor()
+extern void megashark__ctor_mB9A275858E99C83BBAA5AF9692B5AC7B8D3F1FF4 ();
+// 0x00000015 System.Void MenuManager::Start()
+extern void MenuManager_Start_m3488752248C062EB8FFA7B9E279B96F7F9882E97 ();
+// 0x00000016 System.Void MenuManager::Update()
+extern void MenuManager_Update_m99AB3F6D54FDC1DEF35143678DDC10726A8EB253 ();
+// 0x00000017 System.Void MenuManager::pause()
+extern void MenuManager_pause_m2DB09E5E355E5CF3788B5EFE5F7755DB6AB03CF1 ();
+// 0x00000018 System.Void MenuManager::unpause()
+extern void MenuManager_unpause_mAAD47FA4ED11BB3BEDCE60ECD00D2F64147957F1 ();
+// 0x00000019 System.Void MenuManager::MainMenu()
+extern void MenuManager_MainMenu_mC8197DD8B9A101C6A79C9E5B9F274E9C674CB343 ();
+// 0x0000001A System.Void MenuManager::CloseApp()
+extern void MenuManager_CloseApp_m85CC0A6C21F63847BD28C8C2924D6D20625CF345 ();
+// 0x0000001B System.Void MenuManager::.ctor()
+extern void MenuManager__ctor_mC328EA95D8565E70AAEDA542072A25B4EFB7ECED ();
+// 0x0000001C System.Void MM::Start()
+extern void MM_Start_m01CBA804F12E0095C897ECCF5876473221682CF2 ();
+// 0x0000001D System.Void MM::Update()
+extern void MM_Update_m26B58D9E612699340E1EE94EF45F5DAC366B38F7 ();
+// 0x0000001E System.Void MM::play()
+extern void MM_play_mBABAC50FAC32215835EB694B64F80BBB0E9FA9B1 ();
+// 0x0000001F System.Void MM::quit()
+extern void MM_quit_m32EE66DBAE1C7B1D753CD21AEF399660F9711CA5 ();
+// 0x00000020 System.Void MM::credits()
+extern void MM_credits_mB14D3E9420F83C25BFAC2154637FD58C8E98C691 ();
+// 0x00000021 System.Void MM::.ctor()
+extern void MM__ctor_m81D92C9F86A2F03784F62D749ECFB8C769D3975A ();
+// 0x00000022 System.Void Raft::Start()
 extern void Raft_Start_mEDC42FD256E8C12E6AB321E274DE2ED241B54474 ();
-// 0x0000000F System.Void Raft::Update()
+// 0x00000023 System.Void Raft::Update()
 extern void Raft_Update_m08E8B96D969551C9C865EFF289A9E17102A94D54 ();
-// 0x00000010 System.Void Raft::OnCollisionEnter(UnityEngine.Collision)
+// 0x00000024 System.Void Raft::OnCollisionEnter(UnityEngine.Collision)
 extern void Raft_OnCollisionEnter_m6AE9CB47FD2A69F9415999A90AAEB45951C7EC1D ();
-// 0x00000011 System.Void Raft::.ctor()
+// 0x00000025 System.Void Raft::.ctor()
 extern void Raft__ctor_mC65F8C32BFA134A4BA6AFE59D5F4A25E7211B8B9 ();
-// 0x00000012 System.Void Shark::Start()
+// 0x00000026 System.Void ScoreManager::Start()
+extern void ScoreManager_Start_mFEF7338BC523241B39734158A94EFC25E2FA6B31 ();
+// 0x00000027 System.Void ScoreManager::Update()
+extern void ScoreManager_Update_m2E3C031F6B9C2D777F26FF2C442187D3A54A57D8 ();
+// 0x00000028 System.Void ScoreManager::.ctor()
+extern void ScoreManager__ctor_m7CF9E343FF933680B8AE31F0B2943E919417B338 ();
+// 0x00000029 System.Void Shark::Start()
 extern void Shark_Start_m7EAB7DFC6CFCFCBEEDC93F3FA61992DDB385B270 ();
-// 0x00000013 System.Void Shark::Update()
+// 0x0000002A System.Void Shark::Update()
 extern void Shark_Update_mB5C1ACF3B04FB6B32E3A91F164ED43468C5115A7 ();
-// 0x00000014 System.Void Shark::.ctor()
+// 0x0000002B System.Void Shark::.ctor()
 extern void Shark__ctor_m35BD7D0641CD80751B09F3BE61AF1A145290EB89 ();
-// 0x00000015 System.Void SpearThrow::Start()
+// 0x0000002C System.Void Slide::Start()
+extern void Slide_Start_m3AC683231D284BF8F66641075070AF362FAFD798 ();
+// 0x0000002D System.Void Slide::Update()
+extern void Slide_Update_m81FF56224B4E513050E1657E427B3FE3D56D08C7 ();
+// 0x0000002E System.Void Slide::OnCollisionExit(UnityEngine.Collision)
+extern void Slide_OnCollisionExit_m8D1C790C70CF9851458F5F30B1534EE1D5FD643E ();
+// 0x0000002F System.Void Slide::.ctor()
+extern void Slide__ctor_mB31EE029C42FE7942ACBECAE49F2A6A758547D86 ();
+// 0x00000030 System.Void SpearThrow::Start()
 extern void SpearThrow_Start_mA61457AC070E30E6EA2CACE156DB4219719E7210 ();
-// 0x00000016 System.Void SpearThrow::Update()
+// 0x00000031 System.Void SpearThrow::Update()
 extern void SpearThrow_Update_mFA3807B38F6FB48D71203ECCCFA6C49A26144CBE ();
-// 0x00000017 System.Void SpearThrow::ThrowSpear()
+// 0x00000032 System.Void SpearThrow::ThrowSpear()
 extern void SpearThrow_ThrowSpear_mC986A53E78554BA46D40FE57E52B3D8A1FF0A48A ();
-// 0x00000018 System.Void SpearThrow::.ctor()
+// 0x00000033 System.Void SpearThrow::ScoreUpdate()
+extern void SpearThrow_ScoreUpdate_m90FDEE4097EFEE4C47B9E5FE48FBDE826DFFC384 ();
+// 0x00000034 System.Void SpearThrow::.ctor()
 extern void SpearThrow__ctor_mE1B1521811164CF6C04C94AE78D7A2AD7E8D4992 ();
-// 0x00000019 System.Void Target::TakeDamage(System.Single)
+// 0x00000035 System.Void Target::TakeDamage(System.Single)
 extern void Target_TakeDamage_m51304FB4248CB7257764767F7764FA02C687D6E5 ();
-// 0x0000001A System.Void Target::Die()
+// 0x00000036 System.Void Target::Die()
 extern void Target_Die_mD1FF15E33984EE00A6DDB33BF7942F1FFB05DEEB ();
-// 0x0000001B System.Void Target::Start()
+// 0x00000037 System.Void Target::Start()
 extern void Target_Start_m2A79874B6AAC79FC2BB02607F27BCC5A704F53AA ();
-// 0x0000001C System.Void Target::Update()
+// 0x00000038 System.Void Target::Update()
 extern void Target_Update_m0274902AFD47D04F2C21ACE3572641CD80AEB9CE ();
-// 0x0000001D System.Void Target::.ctor()
+// 0x00000039 System.Void Target::.ctor()
 extern void Target__ctor_mED3D9359C547A1958742D796A2B591ECE7E92EB5 ();
-static Il2CppMethodPointer s_methodPointers[29] = 
+// 0x0000003A System.Void WaterUpDown::Start()
+extern void WaterUpDown_Start_mF7DD7FF02AD72DBBBC1CE81991EB0C0224AA780D ();
+// 0x0000003B System.Void WaterUpDown::Update()
+extern void WaterUpDown_Update_m83F75BA448BC3CFA11FC716FD31F836261CD7AAF ();
+// 0x0000003C System.Void WaterUpDown::OnCollision(UnityEngine.Collider)
+extern void WaterUpDown_OnCollision_mB6C7B82F9D1CE7ACAC2DAFDAE5216F287FBAE7C6 ();
+// 0x0000003D System.Void WaterUpDown::.ctor()
+extern void WaterUpDown__ctor_mD0700F618B2032508194F886DBEEF17852FAA71E ();
+static Il2CppMethodPointer s_methodPointers[61] = 
 {
 	camMouseLook_Start_mFE6F7360678FBD800EAB9C1BFEF79857125A8923,
 	camMouseLook_Update_mDD8F0F1A16152879BE7A1C81E80BA7B18354FD59,
@@ -87,30 +151,62 @@ static Il2CppMethodPointer s_methodPointers[29] =
 	CharacterController_Update_m0B4138A15A924D7AF12C5FC6865E0E9BB777561E,
 	CharacterController_OnCollisionEnter_mFD7C458D0BE3E9D3A2758F4E7FB04B27B99C63C9,
 	CharacterController__ctor_mA5C22E969F3A8EA9CAE0CE3A44FA79601A1E86E2,
+	CreditsSharks_Start_m16E9FE641DF3B0B4D8EB8A065B87FF85ECA3D365,
+	CreditsSharks_Update_m05414EFB05A8E6F09AD9AEAEDE62CF64EBD377EE,
+	CreditsSharks__ctor_m45DA0AF2F86D5B24B619454FC705D7911F726CEF,
 	GM_Start_m0ABA464F3FD3AB1E1E690AC95367B6E718E5C119,
 	GM_Update_mBE4D9C9246044DAFEFE74B89D660F299A8D2BD1B,
 	GM_WaveManager_m21A28E13569AE0F5EB98E57815CCD422656A51DA,
 	GM_difficultycheck_mE180CC529DF22CDB6863060467944BA62D1A5489,
 	GM_spawnpick_mF00AECCF854EF9A29A97EDB846C868A8B7D8B369,
+	GM_UpdateUI_m32EE8E33462F646CF6107311FEBF2F494ED5E686,
 	GM__ctor_mEB4E935029679AB27C71A685F51A7BCEA565052A,
+	megashark_Start_mE5967DE8F44B6065C92F09AE228995A48BED12DA,
+	megashark_Update_m03AA403638157007B9B065883EAD1FB795B426E1,
+	megashark__ctor_mB9A275858E99C83BBAA5AF9692B5AC7B8D3F1FF4,
+	MenuManager_Start_m3488752248C062EB8FFA7B9E279B96F7F9882E97,
+	MenuManager_Update_m99AB3F6D54FDC1DEF35143678DDC10726A8EB253,
+	MenuManager_pause_m2DB09E5E355E5CF3788B5EFE5F7755DB6AB03CF1,
+	MenuManager_unpause_mAAD47FA4ED11BB3BEDCE60ECD00D2F64147957F1,
+	MenuManager_MainMenu_mC8197DD8B9A101C6A79C9E5B9F274E9C674CB343,
+	MenuManager_CloseApp_m85CC0A6C21F63847BD28C8C2924D6D20625CF345,
+	MenuManager__ctor_mC328EA95D8565E70AAEDA542072A25B4EFB7ECED,
+	MM_Start_m01CBA804F12E0095C897ECCF5876473221682CF2,
+	MM_Update_m26B58D9E612699340E1EE94EF45F5DAC366B38F7,
+	MM_play_mBABAC50FAC32215835EB694B64F80BBB0E9FA9B1,
+	MM_quit_m32EE66DBAE1C7B1D753CD21AEF399660F9711CA5,
+	MM_credits_mB14D3E9420F83C25BFAC2154637FD58C8E98C691,
+	MM__ctor_m81D92C9F86A2F03784F62D749ECFB8C769D3975A,
 	Raft_Start_mEDC42FD256E8C12E6AB321E274DE2ED241B54474,
 	Raft_Update_m08E8B96D969551C9C865EFF289A9E17102A94D54,
 	Raft_OnCollisionEnter_m6AE9CB47FD2A69F9415999A90AAEB45951C7EC1D,
 	Raft__ctor_mC65F8C32BFA134A4BA6AFE59D5F4A25E7211B8B9,
+	ScoreManager_Start_mFEF7338BC523241B39734158A94EFC25E2FA6B31,
+	ScoreManager_Update_m2E3C031F6B9C2D777F26FF2C442187D3A54A57D8,
+	ScoreManager__ctor_m7CF9E343FF933680B8AE31F0B2943E919417B338,
 	Shark_Start_m7EAB7DFC6CFCFCBEEDC93F3FA61992DDB385B270,
 	Shark_Update_mB5C1ACF3B04FB6B32E3A91F164ED43468C5115A7,
 	Shark__ctor_m35BD7D0641CD80751B09F3BE61AF1A145290EB89,
+	Slide_Start_m3AC683231D284BF8F66641075070AF362FAFD798,
+	Slide_Update_m81FF56224B4E513050E1657E427B3FE3D56D08C7,
+	Slide_OnCollisionExit_m8D1C790C70CF9851458F5F30B1534EE1D5FD643E,
+	Slide__ctor_mB31EE029C42FE7942ACBECAE49F2A6A758547D86,
 	SpearThrow_Start_mA61457AC070E30E6EA2CACE156DB4219719E7210,
 	SpearThrow_Update_mFA3807B38F6FB48D71203ECCCFA6C49A26144CBE,
 	SpearThrow_ThrowSpear_mC986A53E78554BA46D40FE57E52B3D8A1FF0A48A,
+	SpearThrow_ScoreUpdate_m90FDEE4097EFEE4C47B9E5FE48FBDE826DFFC384,
 	SpearThrow__ctor_mE1B1521811164CF6C04C94AE78D7A2AD7E8D4992,
 	Target_TakeDamage_m51304FB4248CB7257764767F7764FA02C687D6E5,
 	Target_Die_mD1FF15E33984EE00A6DDB33BF7942F1FFB05DEEB,
 	Target_Start_m2A79874B6AAC79FC2BB02607F27BCC5A704F53AA,
 	Target_Update_m0274902AFD47D04F2C21ACE3572641CD80AEB9CE,
 	Target__ctor_mED3D9359C547A1958742D796A2B591ECE7E92EB5,
+	WaterUpDown_Start_mF7DD7FF02AD72DBBBC1CE81991EB0C0224AA780D,
+	WaterUpDown_Update_m83F75BA448BC3CFA11FC716FD31F836261CD7AAF,
+	WaterUpDown_OnCollision_mB6C7B82F9D1CE7ACAC2DAFDAE5216F287FBAE7C6,
+	WaterUpDown__ctor_mD0700F618B2032508194F886DBEEF17852FAA71E,
 };
-static const int32_t s_InvokerIndices[29] = 
+static const int32_t s_InvokerIndices[61] = 
 {
 	13,
 	13,
@@ -127,9 +223,37 @@ static const int32_t s_InvokerIndices[29] =
 	13,
 	13,
 	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
 	4,
 	13,
 	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	4,
 	13,
 	13,
 	13,
@@ -141,12 +265,16 @@ static const int32_t s_InvokerIndices[29] =
 	13,
 	13,
 	13,
+	13,
+	13,
+	4,
+	13,
 };
 extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	29,
+	61,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,

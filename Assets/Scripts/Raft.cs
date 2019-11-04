@@ -33,5 +33,9 @@ public class Raft : MonoBehaviour
             destroyed = true;
             Destroy(collision.gameObject);
         }
+        if (collision.gameObject.tag == "megashark")
+        {
+            destroyed = true;
+        }
     }
 }

@@ -6,6 +6,12 @@ using UnityEngine;
 public class GM : MonoBehaviour
 {
 
+    public AudioSource spawnsound;
+    public AudioSource monstersound;
+
+    public AudioSource mainmusic;
+    public AudioSource bossmusic;
+
     public int onscreen;
     public string dif;
     public Text difficulty_text;
@@ -13,6 +19,7 @@ public class GM : MonoBehaviour
       
     public Transform currspawn;
     public GameObject shark;
+    public GameObject sharkmonster;
     int spawntimer;
     public int spawnset;
     public int random;
@@ -64,6 +71,7 @@ public class GM : MonoBehaviour
             {
                 spawnpick();
                 Instantiate(shark, currspawn);
+                spawnsound.Play();
                 spawntimer = 0;
             }
 
@@ -75,6 +83,7 @@ public class GM : MonoBehaviour
             {
                 spawnpick();
                 Instantiate(shark, currspawn);
+                spawnsound.Play();
                 spawntimer = 0;
             }
 
@@ -86,6 +95,7 @@ public class GM : MonoBehaviour
             {
                 spawnpick();
                 Instantiate(shark, currspawn);
+                spawnsound.Play();
                 spawntimer = 0;
             }
 
@@ -97,6 +107,7 @@ public class GM : MonoBehaviour
             {
                 spawnpick();
                 Instantiate(shark, currspawn);
+                spawnsound.Play();
                 spawntimer = 0;
             }
 
@@ -108,6 +119,7 @@ public class GM : MonoBehaviour
             {
                 spawnpick();
                 Instantiate(shark, currspawn);
+                spawnsound.Play();
                 spawntimer = 0;
             }
 
@@ -148,6 +160,16 @@ public class GM : MonoBehaviour
             supahhard = false;
             OHLAWDHECOMIN = true;
             dif = "OH LAWD HE COMIN'";
+        }
+
+        if (difficulty >= 9000)
+        {
+            OHLAWDHECOMIN = false;
+            Instantiate(sharkmonster, currspawn);
+            mainmusic.Pause();
+            bossmusic.Play();
+            monstersound.Play();
+
         }
     }
     void spawnpick()

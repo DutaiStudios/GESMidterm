@@ -3,20 +3,76 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CharacterController
     - GM
+    - MM
+    - MenuManager
     - Raft
     - Shark
+    - Slide
     - SpearThrow
     - Target
+    - WaterUpDown
     - camMouseLook
+    - megashark
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Credits.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9370}
+    - Class: 114
+      Script: {instanceID: 9372}
+    - Class: 114
+      Script: {instanceID: 9378}
+    - Class: 114
+      Script: {instanceID: 9384}
+    - Class: 114
+      Script: {instanceID: 9392}
+    - Class: 114
+      Script: {instanceID: 9428}
+    - Class: 114
+      Script: {instanceID: 9430}
+    - Class: 114
+      Script: {instanceID: 10140}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/GES.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -44,12 +100,18 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 9324}
+    - Class: 114
+      Script: {instanceID: 9370}
     - Class: 114
       Script: {instanceID: 9372}
     - Class: 114
@@ -61,6 +123,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9428}
     - Class: 114
+      Script: {instanceID: 9430}
+    - Class: 114
       Script: {instanceID: 9574}
     - Class: 114
       Script: {instanceID: 9586}
@@ -69,16 +133,89 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9698}
     - Class: 114
-      Script: {instanceID: 10186}
+      Script: {instanceID: 9850}
     - Class: 114
-      Script: {instanceID: 10318}
+      Script: {instanceID: 10140}
+    - Class: 114
+      Script: {instanceID: 10192}
+    - Class: 114
+      Script: {instanceID: 10324}
+    - Class: 114
+      Script: {instanceID: 25952}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9370}
+    - Class: 114
+      Script: {instanceID: 9372}
+    - Class: 114
+      Script: {instanceID: 9378}
+    - Class: 114
+      Script: {instanceID: 9384}
+    - Class: 114
+      Script: {instanceID: 9392}
+    - Class: 114
+      Script: {instanceID: 9428}
+    - Class: 114
+      Script: {instanceID: 9430}
+    - Class: 114
+      Script: {instanceID: 18160}
+    - Class: 114
+      Script: {instanceID: 19600}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -535,7 +672,7 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: 5955091a627593e95e03e464dd5e5839
+      Hash: 71b65b3a2108c3061c73cf035161be0b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Shark
@@ -565,7 +702,7 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: a26cdcca881cfc3102892ba021bb0da6
+      Hash: 00421a5c9bbb6033878eb72d223a3ad6
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GM
@@ -587,6 +724,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreManager
   - hash:
       serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
@@ -611,6 +754,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 957f4a5192825f7fa6141e678ec36aa0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WaterUpDown
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -697,6 +846,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 96c2b0f5ea6d91f3d27608db9c2ffa25
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuManager
+  - hash:
+      serializedVersion: 2
       Hash: ee0cef6caaac8ae485bfa82f000f0f7b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -721,7 +876,7 @@ ScriptsOnlyBuild:
     className: Target
   - hash:
       serializedVersion: 2
-      Hash: caf5504db59dee9421144af7e0426027
+      Hash: 0e5c8d00b4aa8c737ecfc5ad6385cd1f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpearThrow
@@ -767,7 +922,33 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CreditsSharks
+  - hash:
+      serializedVersion: 2
+      Hash: 957f4a5192825f7fa6141e678ec36aa0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Slide
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MM
+  - hash:
+      serializedVersion: 2
+      Hash: 71b65b3a2108c3061c73cf035161be0b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: megashark
   platform: 21
   scenePathNames:
+  - Assets/MainMenu.unity
   - Assets/GES.unity
+  - Assets/Credits.unity
   playerPath: C:/Users/Owner/Desktop/New Unity Project/GESMidterm/Builds

@@ -526,7 +526,7 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: New Unity Project
   metroPackageVersion: 
-  metroCertificatePath: C:\Users\Owner\Desktop\New Unity Project\GESMidterm\Assets\WSATestCertificate.pfx
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
